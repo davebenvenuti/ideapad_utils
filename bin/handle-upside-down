@@ -4,5 +4,4 @@ xrandr -o inverted
 #xinput set-prop 'ELAN Touchscreen' 'Coordinate Transformation Matrix' -1 0 1 0 -1 1 0 0 1
 xinput set-prop 'SYNA7501:00 06CB:16C8' 'Coordinate Transformation Matrix' -1 0 1 0 -1 1 0 0 1
 xinput disable 'SynPS/2 Synaptics TouchPad'
-# Remove hashtag below if you want pop-up the virtual keyboard  
-# onboard &
+onboard &
