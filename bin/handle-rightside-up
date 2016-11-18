@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Screen is turned back to normal"
+xrandr -o normal
+xinput set-prop 'SYNA7501:00 06CB:16C8' 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1
+xinput enable 'SynPS/2 Synaptics TouchPad'
+# killall onboard 
